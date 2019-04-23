@@ -1,0 +1,8 @@
+<lcgdict>
+
+  <class name="RunIOV" />
+  <class name="LMFSeqDat" />
+  <class name="LMFRunIOV" />
+  <class name="EcalCondDBInterface" />
+
+</lcgdict>

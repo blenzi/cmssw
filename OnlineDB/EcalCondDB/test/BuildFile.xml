@@ -24,3 +24,7 @@
   <flags NO_TESTRUN="1"/>
   <use   name="boost_program_options" />
 </bin>
+<bin   file="TestDBAccess.cpp">
+  <flags NO_TESTRUN="1"/>
+  <use name="sqlite"/>
+</bin>
