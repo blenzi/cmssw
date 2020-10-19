@@ -26,6 +26,7 @@
 #include "IOMC/ParticleGuns/interface/ManyParticleFlatEtGunProducer.h"
 #include "IOMC/ParticleGuns/interface/RandomXiThetaGunProducer.h"
 #include "IOMC/ParticleGuns/interface/ECALOverlapGunProducer.h"
+#include "IOMC/ParticleGuns/interface/PhysicsLikeParticleGunProducer.h"
 
 // particle gun prototypes
 //
@@ -75,5 +76,5 @@ using edm::ECALOverlapGunProducer;
 DEFINE_FWK_MODULE(ECALOverlapGunProducer);
 using edm::ManyParticleFlatEtGunProducer;
 DEFINE_FWK_MODULE(ManyParticleFlatEtGunProducer);
-
-
+using edm::PhysicsLikeParticleGunProducer;
+DEFINE_FWK_MODULE(PhysicsLikeParticleGunProducer);
