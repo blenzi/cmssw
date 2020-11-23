@@ -75,7 +75,7 @@ void PhysicsLikeParticleGunProducer::produce(Event &e, const EventSetup& es)
     {
         int pID_index = CLHEP::RandFlat::shoot(engine, 0, fPartIDs.size());
         int PartID = fPartIDs[pID_index];
-        double Et = std::min(CLHEP::RandExponential::shoot(engine, fMeanEt - fMinEt) - fMinEt, fMaxEt);
+        double Et = std::min(CLHEP::RandExponential::shoot(engine, fMeanEt - fMinEt) + fMinEt, fMaxEt);
         double eta = CLHEP::RandFlat::shoot(engine, fMinEta, fMaxEta);
         double phi = CLHEP::RandFlat::shoot(engine, fMinPhi, fMaxPhi);
 
